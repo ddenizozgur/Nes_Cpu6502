@@ -23,7 +23,7 @@
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
+# *.dll
 *.so
 *.so.*
 *.dylib
@@ -53,3 +53,8 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# directories
+Nes_Cpu6502/
+x64/
+.vs/
